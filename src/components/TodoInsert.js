@@ -21,7 +21,6 @@ const TodoInsert = ({ onInsert }) => {
     [onInsert, value]
   );
 
-  
   return (
     <form className="TodoInsert" onSubmit={onSubmit}>
       <input
